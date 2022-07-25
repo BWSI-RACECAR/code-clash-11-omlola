@@ -38,15 +38,6 @@ Total profit = 4 + 8 = 12.
 
 class Solution:
     def stonks(self, prices):
-        # profit = 0
-        # startindex = 0
-        # for i in range(0, len(prices)-1):
-        #     if i+1 < i or i+1 == len(prices)-1:
-        #         print(prices[i] - prices[startindex])
-        #         if prices[i] - prices[startindex] > 0:
-        #             profit+=(prices[i] - prices[startindex])
-        #         startindex = i+1
-        # return profit
 
         profit = 0
         list1 = []
